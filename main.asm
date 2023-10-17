@@ -13,13 +13,14 @@
 .include "./src/HackInOrigin.s"
 
 .org HackStart1
+.include "./src/CopyOrigin.s"
 .include "./src/CardName.s"
 .include "./graphic/fonts.s"
 
 .include "./strings/TextOfChapter.s"
 .include "./strings/TextOfMiniGame.s"
 
-.include "./graphic/graphic.s"
+;.include "./graphic/graphic.s"
 
 
 .close

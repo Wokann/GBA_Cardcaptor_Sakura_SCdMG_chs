@@ -1,13 +1,19 @@
-TextOfChapter                   equ 0x083B29E8
-TextOfMiniGameSelect            equ 0x08137032
-TextOfMiniGame                  equ 0x08157764
+TileToVram                              equ 0x08002F68
+ChapterAndGameSelect                    equ 0x0800729C
 
-LengthOfTextOfMiniGame          equ 0x08157A4C
+TextOfChapterSelect                     equ 0x08137028
+TextOfMiniGameSelect                    equ 0x08137032
+TextOfCredit                            equ 0x0813DBEA
+TextOfMiniGame                          equ 0x08157764
+TextOfChapter                           equ 0x083B29E8
 
-CardNameFont16x16Comp           equ 0x0814E04C
-TextFont12x12                   equ 0x0814A5AC
-TextFont12x12Ptr1               equ 0x0800706C
-TextFont12x12Ptr2               equ 0x08007258
-TextFont12x12Ptr3               equ 0x080094AC
-TextFont12x12Ptr4               equ 0x0800CBA0
-TextFont12x12Ptr5               equ 0x0800DC74
+LengthOfTextOfMiniGame                  equ 0x08157A4C
+
+GfxOfFont12x12ForText                   equ 0x0814A5AC
+PalOfFont12x12ForText                   equ 0x0814E02C
+GfxOfFont16x16ForCardNameComp           equ 0x0814E04C
+PtrOfFont12x12ForText1                  equ 0x0800706C
+PtrOfFont12x12ForText2                  equ 0x08007258
+PtrOfFont12x12ForText3                  equ 0x080094AC
+PtrOfFont12x12ForText4                  equ 0x0800CBA0
+PtrOfFont12x12ForText5                  equ 0x0800DC74

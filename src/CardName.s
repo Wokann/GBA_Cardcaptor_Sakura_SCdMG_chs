@@ -20,7 +20,7 @@ BackToOrigin1:
 LoadNewFont:
     ldr r0,=0x2380
     strh r0,[r5,0]
-    ldr r0,=CardNameFont16x16Uncomp
+    ldr r0,=GfxOfFont16x16ForCardNameUnomp
     ldr r1,=0x02021690
     ldr r2,=0x040008E0
     bl SwiCpuSet
@@ -32,8 +32,5 @@ BackToOrigin2:
 .pool
 .endfunc
 
-.func SwiCpuSet
-    swi 0xB
-    bx lr
-.endfunc
+
 
