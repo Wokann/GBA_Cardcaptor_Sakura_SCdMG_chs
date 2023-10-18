@@ -1,4 +1,4 @@
-/*
+
 .loadtable "./charmap_12x12.txt"
 .org TextOfCredit
     .strn "魔卡少女樱{换行}"
@@ -38,7 +38,7 @@
     .strn " プラチナ{换行}"
     .strn "{换行}"
     .strn "作词{换行}"
-    .strn " 岩里 祐穗{换行}"
+    .strn " 岩里 佑穗{换行}"
     .strn "{换行}"
     .strn "作曲{换行}"
     .strn " 菅野 洋子{换行}"
@@ -49,7 +49,7 @@
     .strn "{换行}"
     .strn "©ＴＤＫコア2003{换行}"
     .strn "{结束}"
-*/
+/*
 
 .loadtable "./charmap_12x12.txt"
 .org TextOfCredit
@@ -101,3 +101,4 @@
     .strn "{换行}"
     .strn "©ＴＤＫコア2003{换行}"
     .strn "{结束}"
+*/

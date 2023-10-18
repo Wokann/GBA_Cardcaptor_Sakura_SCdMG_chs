@@ -5,3 +5,5 @@ GfxOfFont16x16ForCardNameUnomp:
 .align 0x80
 GfxOfFont12x12ForTextChinese:
     .incbin "./graphic/GfxOfFont12x12ForText.4bpp"  
+    .incbin "./graphic/GfxOfFont12x12ForTextChinese.4bpp"
+

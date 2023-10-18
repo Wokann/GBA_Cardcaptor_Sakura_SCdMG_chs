@@ -15,6 +15,7 @@
 .org HackStart1
 .include "./src/CopyOrigin.s"
 .include "./src/CardName.s"
+.include "./src/ExpandFont.s"
 .include "./graphic/fonts.s"
 
 .include "./strings/TextOfChapter.s"

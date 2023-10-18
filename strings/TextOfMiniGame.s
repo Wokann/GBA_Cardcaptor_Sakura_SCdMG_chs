@@ -1,4 +1,4 @@
-/*
+
 .loadtable "./charmap_12x12.txt"
 .org TextOfMiniGameSelect
     .strn "游戏场景{结束}"
@@ -90,7 +90,7 @@ TextOfMiniGame23:
 EndOfTextOfMiniGame:
 
 .fill (LengthOfTextOfMiniGame - EndOfTextOfMiniGame),0xFF
-*/
+/*
 .loadtable "./charmap_12x12.txt"
 .org TextOfMiniGameSelect
     .strn "ステ-ジ{结束}"
@@ -176,3 +176,4 @@ TextOfMiniGame22:
 
 TextOfMiniGame23:
     .strn "リバ-シでエリオルにかとう{结束}"
+*/

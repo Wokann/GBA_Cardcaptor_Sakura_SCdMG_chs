@@ -1,4 +1,6 @@
 TileToVram                              equ 0x08002F68
+PrintChapterAndGameSelectText          equ 0x08004E9C
+PrintText                               equ 0x0800517C
 ChapterAndGameSelect                    equ 0x0800729C
 
 TextOfChapterSelect                     equ 0x08137028

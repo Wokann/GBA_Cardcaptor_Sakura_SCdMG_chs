@@ -9,4 +9,8 @@
 *.sv2
 *.sv3
 *.sv4
+*.ss1
+*.ss2
+*.ss3
+*.ss4
 .vscode
