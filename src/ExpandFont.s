@@ -1,3 +1,4 @@
+;因为码表最大到0x33**,故取r3 = 0x3400
 ExpandFontChinese1:
     mov r1,0xB3
     str r1,[sp,0x14]

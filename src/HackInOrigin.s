@@ -1,8 +1,10 @@
+;卡片名字字模、封面等压缩图片跳过解压程序
 .org TileToVram + 0x80              ;0x08002FE8
-    ldr r1,=CardNameChinese
+    ldr r1,=SkipCompTileToUncompData
     mov pc,r1
 .pool
 
+;章节浏览文本位置调整
 .org ChapterAndGameSelect + 0x74    ;0x08007310
     add r4,4                        ;0x08137028 + 0x6 = 0x0813702E -> 0x08137028 + 0x4 = 0x0813702C
     add r1,r6,1                     ;2->1 わ位置左移1位
@@ -10,21 +12,7 @@
     mov r1,1                        ;2->1 **位置左移1位
                                     ;用于将 “だい**わ” 变更为 “第**章节”的函数调整
 
-.org PtrOfFont12x12ForText1
-    .word GfxOfFont12x12ForTextChinese
-
-.org PtrOfFont12x12ForText2
-    .word GfxOfFont12x12ForTextChinese
-
-.org PtrOfFont12x12ForText3
-    .word GfxOfFont12x12ForTextChinese
-
-.org PtrOfFont12x12ForText4
-    .word GfxOfFont12x12ForTextChinese
-
-.org PtrOfFont12x12ForText5
-    .word GfxOfFont12x12ForTextChinese
-
+;解除码表编码限制
 .org PrintChapterAndGameSelectText + 0xB2              ;0x08004F4E
     mov r2,0x84
 
@@ -71,3 +59,19 @@
 .pool
     nop
     pop r1
+
+;文本字体指针更新
+.org PtrOfFont12x12ForText1
+    .word GfxOfFont12x12ForTextChinese
+
+.org PtrOfFont12x12ForText2
+    .word GfxOfFont12x12ForTextChinese
+
+.org PtrOfFont12x12ForText3
+    .word GfxOfFont12x12ForTextChinese
+
+.org PtrOfFont12x12ForText4
+    .word GfxOfFont12x12ForTextChinese
+
+.org PtrOfFont12x12ForText5
+    .word GfxOfFont12x12ForTextChinese
