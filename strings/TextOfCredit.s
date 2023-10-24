@@ -88,7 +88,7 @@ TextOfCredit42:
 TextOfCredit43:
     .strn "{换行}"
 TextOfCredit44:
-    .strn "©ＣＬＡＭＰ·讲谈社·ＮＥＰ21{换行}"
+    .strn "©ＣＬＡＭＰ·講談{社old}·ＮＥＰ21{换行}"
 TextOfCredit45:
     .strn "©ＴＤＫコア 2003{换行}"
 TextOfCredit46:
@@ -97,56 +97,6 @@ TextOfCredit47:
     .strn "{换行}"
 TextOfCredit48:
     .strn "{结束}"
-
-.org OffsetOfTextOfCredit
-    .hword (TextOfCredit01 - TextOfCredit01) / 2
-    .hword (TextOfCredit02 - TextOfCredit01) / 2
-    .hword (TextOfCredit03 - TextOfCredit01) / 2
-    .hword (TextOfCredit04 - TextOfCredit01) / 2
-    .hword (TextOfCredit05 - TextOfCredit01) / 2
-    .hword (TextOfCredit06 - TextOfCredit01) / 2
-    .hword (TextOfCredit07 - TextOfCredit01) / 2
-    .hword (TextOfCredit08 - TextOfCredit01) / 2
-    .hword (TextOfCredit09 - TextOfCredit01) / 2
-    .hword (TextOfCredit10 - TextOfCredit01) / 2
-    .hword (TextOfCredit11 - TextOfCredit01) / 2
-    .hword (TextOfCredit12 - TextOfCredit01) / 2
-    .hword (TextOfCredit13 - TextOfCredit01) / 2
-    .hword (TextOfCredit14 - TextOfCredit01) / 2
-    .hword (TextOfCredit15 - TextOfCredit01) / 2
-    .hword (TextOfCredit16 - TextOfCredit01) / 2
-    .hword (TextOfCredit17 - TextOfCredit01) / 2
-    .hword (TextOfCredit18 - TextOfCredit01) / 2
-    .hword (TextOfCredit19 - TextOfCredit01) / 2
-    .hword (TextOfCredit20 - TextOfCredit01) / 2
-    .hword (TextOfCredit21 - TextOfCredit01) / 2
-    .hword (TextOfCredit22 - TextOfCredit01) / 2
-    .hword (TextOfCredit23 - TextOfCredit01) / 2
-    .hword (TextOfCredit24 - TextOfCredit01) / 2
-    .hword (TextOfCredit25 - TextOfCredit01) / 2
-    .hword (TextOfCredit26 - TextOfCredit01) / 2
-    .hword (TextOfCredit27 - TextOfCredit01) / 2
-    .hword (TextOfCredit28 - TextOfCredit01) / 2
-    .hword (TextOfCredit29 - TextOfCredit01) / 2
-    .hword (TextOfCredit30 - TextOfCredit01) / 2
-    .hword (TextOfCredit31 - TextOfCredit01) / 2
-    .hword (TextOfCredit32 - TextOfCredit01) / 2
-    .hword (TextOfCredit33 - TextOfCredit01) / 2
-    .hword (TextOfCredit34 - TextOfCredit01) / 2
-    .hword (TextOfCredit35 - TextOfCredit01) / 2
-    .hword (TextOfCredit36 - TextOfCredit01) / 2
-    .hword (TextOfCredit37 - TextOfCredit01) / 2
-    .hword (TextOfCredit38 - TextOfCredit01) / 2
-    .hword (TextOfCredit39 - TextOfCredit01) / 2
-    .hword (TextOfCredit40 - TextOfCredit01) / 2
-    .hword (TextOfCredit41 - TextOfCredit01) / 2
-    .hword (TextOfCredit42 - TextOfCredit01) / 2
-    .hword (TextOfCredit43 - TextOfCredit01) / 2
-    .hword (TextOfCredit44 - TextOfCredit01) / 2
-    .hword (TextOfCredit45 - TextOfCredit01) / 2
-    .hword (TextOfCredit46 - TextOfCredit01) / 2
-    .hword (TextOfCredit47 - TextOfCredit01) / 2
-    .hword (TextOfCredit48 - TextOfCredit01) / 2
 
 
 /*

@@ -31,6 +31,15 @@ CheckIfTileNeedToSkip:
     ldr r1,=GfxOfEndComp                    ;[6]GfxOfEnd
     cmp r0,r1
     beq LoadGfxOfEndUncompChinese
+    ldr r1,=GfxOfGamePauseMenuComp          ;[7]GfxOfGamePauseMenu
+    cmp r0,r1
+    beq LoadGfxOfGamePauseMenuUncompChinese
+    ldr r1,=GfxOfGame15BGComp               ;[8]GfxOfGame15BG
+    cmp r0,r1
+    beq LoadGfxOfGame15BGUncompChinese
+    ldr r1,=GfxOfDrawBGComp                 ;[9]GfxOfDrawBG
+    cmp r0,r1
+    beq LoadGfxOfDrawBGUncompChinese
 
 
 BackToOrigin1:
@@ -39,6 +48,12 @@ BackToOrigin1:
     mov pc,r1
 .pool
 
+LoadGfxOfDrawBGUncompChinese:               ;[9]GfxOfDrawBG
+    add r3,r3,1
+LoadGfxOfGame15BGUncompChinese:             ;[8]GfxOfGame15BG
+    add r3,r3,1
+LoadGfxOfGamePauseMenuUncompChinese:        ;[7]GfxOfGamePauseMenu
+    add r3,r3,1
 LoadGfxOfEndUncompChinese:                  ;[6]GfxOfEnd
     add r3,r3,1
 LoadGfxOfStartBackgroundUncompChinese:      ;[5]GfxOfStartBackground
@@ -154,8 +169,23 @@ struct SkipTable[][3]
     .word 0
     .word 0;0x9F80
 
-    ;[6]GfxOfEndUncompChinese
+    ;[6]GfxOfEnd
     .word GfxOfEndUncompChinese
     .word 0
     .word 0;0x9F80
+
+    ;[7]GfxOfGamePauseMenu
+    .word GfxOfGamePauseMenuUncompChinese
+    .word 0
+    .word 0
+
+    ;[8]GfxOfGame15BG
+    .word GfxOfGame15BGUncompChinese
+    .word 0
+    .word 0
+
+    ;[9]GfxOfDrawBG
+    .word GfxOfDrawBGUncompChinese
+    .word 0
+    .word 0
 .endfunc

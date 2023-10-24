@@ -7,19 +7,21 @@
 .include "./include/OriginSymbols.s"
 .include "./include/HackSymbols.s"
 
+.include "./data/DataOfGameLose.s"
 ;.include "./data/DataOfMenuCursor.s"
-.include "./data/LengthOfTextOfMiniGame.s"
 .include "./data/PtrOfTextOfCardName.s"
 .include "./data/PtrOfTextOfChapter.s"
 
 .include "./strings/TextOfCardName.s"
 .include "./strings/TextOfChapter.s"
 .include "./strings/TextOfCredit.s"
+.include "./data/OffsetOfTextOfCredit.s"
 .include "./strings/TextOfMiniGame.s"
+.include "./data/LengthOfTextOfMiniGame.s"
 .include "./strings/TextOfMenu.s"
 
-.include "./src/HackInOrigin.s"
 .include "./graphic/graphicInOriginAdd.s"
+.include "./src/HackInOrigin.s"
 
 .org HackStart1
 .include "./src/CopyOrigin.s"
