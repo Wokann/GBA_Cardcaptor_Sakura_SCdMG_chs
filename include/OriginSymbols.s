@@ -47,6 +47,7 @@ GfxOfEndComp                            equ 0x08137076
 
 GfxOfGamePauseMenuComp                  equ 0x0813DEA4
 
+PtrOfGfxOfCardComp                      equ 0x083F0D38;-0x083F0DD7   
 GfxOfCardBackComp                       equ 0x083B8230
 GfxOfCard51LoveComp                     equ 0x083D883E
 
