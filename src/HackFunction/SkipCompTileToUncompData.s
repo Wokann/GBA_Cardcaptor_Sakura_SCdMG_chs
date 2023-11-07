@@ -189,3 +189,8 @@ struct SkipTable[][3]
     .word 0
     .word 0
 .endfunc
+
+.func SwiCpuSet
+    swi 0xB
+    bx lr
+.endfunc

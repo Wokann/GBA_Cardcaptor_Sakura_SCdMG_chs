@@ -92,7 +92,7 @@ TextOfCredit44:
 TextOfCredit45:
     .strn "©ＴＤＫコア 2003{换行}"
 TextOfCredit46:
-    .strn "©卧看微尘汉化2023{换行}"
+    .strn "©卧看微尘汉化2023 1·0{换行}"
 TextOfCredit47:
     .strn "{换行}"
 TextOfCredit48:

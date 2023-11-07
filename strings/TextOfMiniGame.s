@@ -31,7 +31,7 @@ TextOfMiniGame7:
     .strn "更快抵达终点吧{结束}"
 
 TextOfMiniGame8:
-    .strn "收集花牌洒出的{换行}"
+    .strn "收集花牌抛出的{换行}"
     .strn "瞿麦花吧{结束}"
 
 TextOfMiniGame9:
@@ -44,7 +44,7 @@ TextOfMiniGame10:
 
 TextOfMiniGame11:
     .strn "不碰到障碍物的情况下{换行}"
-    .strn "上升到电梯处吧{结束}"
+    .strn "回到电梯处吧{结束}"
 
 TextOfMiniGame12:
     .strn "给可鲁贝洛斯{换行}"
@@ -64,7 +64,7 @@ TextOfMiniGame15:
 
 TextOfMiniGame16:
     .strn "配对有着相同{换行}"
-    .strn "图案的卡牌吧{结束}"
+    .strn "人像的卡牌吧{结束}"
 
 TextOfMiniGame17:
     .strn "在海浪中保护利佳吧{结束}"
